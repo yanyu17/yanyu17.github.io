@@ -106,6 +106,7 @@ var _hmt = _hmt || [];
 
 
 <link rel="stylesheet" href="/css/style.css">
+<script src="/js/click.js"></script>
 </head>
 <body class="is-3-column">
     <nav class="navbar navbar-main">
@@ -692,7 +693,7 @@ var _hmt = _hmt || [];
                     mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
                     seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
                     snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
-                    document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 
+                    document.getElementById("timeDate").innerHTML = "本站已运行 "+dnum+" 天 "; 
                     document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
                 } 
             setInterval("createtime()",250);
@@ -859,5 +860,5 @@ document.addEventListener('DOMContentLoaded', function () {
 <link rel="stylesheet" href="/css/search.css">
 <link rel="stylesheet" href="/css/insight.css">
     
-</body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 </html>
