@@ -1,0 +1,98 @@
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+			.services-section {
+				
+				background-size: cover;
+				padding: 20px 0;
+			}
+			.inner-width {
+				width: 100%;
+				max-width: 1200px;
+				margin: auto;
+				padding: 10px 20px;
+				overflow: hidden;
+			}
+			.services-container {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+			}
+			.service-box {
+				width: 360px;
+				max-width: 40%;
+				padding: 10px;
+				text-align: center;
+				background-color: rgba(235, 235, 235, 0.1);
+				color: #000;
+				border: 0.5px solid rgba(0,0,0,0.05);
+				border-radius: 10px;
+				margin: 20px 20px;
+				box-shadow: 0px 0px 20px 0.07px rgba(0,0,0,0.07);
+			}
+			.service-box:hover {
+				background: #000;
+				color: #fff;
+				box-shadow: 0px 0px 10px 1.5px rgba(0, 0, 0, 0.5);
+				transition: 0.7s linear;
+			}
+			.service-box:hover .service-icon {
+				border: 1px solid #000;
+				box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+			}
+			.service-box:hover .service-title {
+				color: #fff;
+				transition: 0.7s linear;
+			}
+			.service-box:hover .service-desc {
+				color: #fff;
+				transition: 0.7s linear;
+			}
+			.service-icon {
+				display: inline-block;
+				width: 70px;
+				height: 70px;
+				border: 1px solid rgba(0, 0, 0, 0.1);
+				border-radius: 50px;
+				color: rgba(0, 0, 0, 0.5);
+				background-color: #fff;
+				margin-top: -30px;
+				transition: 0.3s linear;
+				cursor: pointer;
+				box-shadow: 0px 0px 20px 0.07px rgba(0,0,0,0.07);
+			}
+			.service-icon i {
+				width: 70px;
+				line-height: 70px;
+				font-size: 26px;
+			}
+			.service-title {
+				font-size: 14px;
+				color: rgba(0, 0, 0, 0.8);
+			}
+			.service-desc {
+				font-size: 12px;
+				color: rgba(0, 0, 0, 0.5);
+			}
+			@media screen and (max-width: 960px) {
+				.service-box {
+					max-width: 100%;
+				}
+			}
+			@media screen and (max-width: 768px) {
+				.service-box {
+					max-width: 100%;
+				}
+			}
+			@media screen and (max-width: 480px) {
+				.service-box {
+					max-width: 100%;
+				}
+			}
+			.logoimg{
+				width: 68px;
+				height: 68px;
+				border-radius: 50px;
+			}
